@@ -4,6 +4,12 @@ A simple watch-then-execute agent. I use it to deploy Cordova and Ionic apps to 
 
 ## Quick Start
 
+To build (I use Gom for dependncy management):
+
+```
+$ gom install && gom build
+```
+
 Have shell scripts you want to run ready in your source repository.
 
 As an example, for 3 files called `deploy-ios`, `deploy-android` and
